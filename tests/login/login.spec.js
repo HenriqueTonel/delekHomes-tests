@@ -1,8 +1,8 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-import { LoginPage } from "../page_objects/login.page";
-import { HomePage } from "../page_objects/home.page";
-import { DashboardPage } from "../page_objects/dashboard.page";
+import { LoginPage } from "../../page_objects/login.page";
+import { HomePage } from "../../page_objects/home.page";
+import { DashboardPage } from "../../page_objects/dashboard.page";
 
 test.describe("Login", () => {
   let loginPage;

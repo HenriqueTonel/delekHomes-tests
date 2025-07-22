@@ -20,7 +20,7 @@ export class RegisterPage {
         provider: "test.com",
         allowSpecialCharacters: true,
       });
-    if (!password) password = faker.password();
+    if (!password) password = faker.internet.password();
 
     await this.firstNameInput.fill(firstName);
     await this.lastNameInput.fill(lastName);

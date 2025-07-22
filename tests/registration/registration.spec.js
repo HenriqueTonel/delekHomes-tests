@@ -1,8 +1,8 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-import { RegisterPage } from "../page_objects/register.page";
-import { HomePage } from "../page_objects/home.page";
-import { DashboardPage } from "../page_objects/dashboard.page";
+import { RegisterPage } from "../../page_objects/register.page";
+import { HomePage } from "../../page_objects/home.page";
+import { DashboardPage } from "../../page_objects/dashboard.page";
 import { faker, Faker } from "@faker-js/faker";
 
 test.describe("Registration scenarios", () => {
